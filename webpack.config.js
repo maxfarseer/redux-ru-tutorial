@@ -21,7 +21,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        loaders: ['babel-loader'],
+        loaders: ['react-hot', 'babel-loader'],
         include: [
           path.resolve(__dirname, "src"),
         ],
