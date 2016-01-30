@@ -21,16 +21,13 @@ module.exports = {
   module: {
     loaders: [
       {
-        loader: 'babel-loader',
+        loaders: ['babel-loader'],
         include: [
           path.resolve(__dirname, "src"),
         ],
         //exclude: /node_modules/,
         test: /\.js$/,
-        query: {
-          plugins: ['transform-runtime'],
-          presets: ['es2015', 'stage-0', 'react'],
-        }
+        plugins: ['transform-runtime'],
       }
     ]
   }
