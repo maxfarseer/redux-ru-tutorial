@@ -1,2 +1,2 @@
 # redux-ru-tutorial
-Code for [chapter](https://maxfarseer.gitbooks.io/redux-course-ru/content/es2015,_react_hmr.html)
+Код для раздела [Подготовка/ESLint](https://github.com/maxfarseer/redux-ru-tutorial/tree/configure_ESlint)
