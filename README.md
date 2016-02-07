@@ -1,4 +1,4 @@
 # redux-ru-tutorial
-Код для [Точка входа](https://maxfarseer.gitbooks.io/redux-course-ru/content/tochka_vhoda.html)
+Код для [Настройка store](https://maxfarseer.gitbooks.io/redux-course-ru/content/sozdanie_store.html)
 
-Добавлен ```<Provider />```
+Добавлено ```configureStore```
