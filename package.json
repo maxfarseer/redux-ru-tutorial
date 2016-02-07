@@ -20,6 +20,7 @@
     "eslint-loader": "^1.2.1",
     "eslint-plugin-react": "^3.16.1",
     "express": "^4.13.4",
+    "npm-install-webpack-plugin": "^2.0.2",
     "react-hot-loader": "^1.3.0",
     "webpack": "^1.12.12",
     "webpack-dev-middleware": "^1.5.1",
