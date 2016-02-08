@@ -1,4 +1,4 @@
 # redux-ru-tutorial
-Код для [Настройка store](https://maxfarseer.gitbooks.io/redux-course-ru/content/sozdanie_store.html)
+Код для [Комбинирование редьюсеров](https://maxfarseer.gitbooks.io/redux-course-ru/content/combinereducers.html)
 
-Добавлено ```configureStore```
+Добавлено ```combineReducer```
