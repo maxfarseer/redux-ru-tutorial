@@ -10,6 +10,6 @@ export default class Page extends Component {
 }
 
 Page.propTypes = {
-  year: React.PropTypes.number.isRequired,
-  photos: React.PropTypes.array.isRequired
+  year: PropTypes.number.isRequired,
+  photos: PropTypes.array.isRequired
 }

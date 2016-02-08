@@ -10,5 +10,5 @@ export default class User extends Component {
 }
 
 User.propTypes = {
-  name: React.PropTypes.string.isRequired
+  name: PropTypes.string.isRequired
 }
