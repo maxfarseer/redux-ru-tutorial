@@ -6,11 +6,11 @@ export default class Page extends Component {
   }
   render() {
     const { year, photos } = this.props
-    return <div>
+    return <div className='col-md-8'>
       <p>
-        <button onClick={::this.onYearBtnClick}>2016</button>
-        <button onClick={::this.onYearBtnClick}>2015</button>
-        <button onClick={::this.onYearBtnClick}>2014</button>
+        <button className='btn btn-sm btn-primary' onClick={::this.onYearBtnClick}>2016</button>{' '}
+        <button className='btn btn-sm btn-primary' onClick={::this.onYearBtnClick}>2015</button>{' '}
+        <button className='btn btn-sm btn-primary' onClick={::this.onYearBtnClick}>2014</button>
       </p>
       <h3>{year} год</h3>
       <p>У тебя {photos.length} фото.</p>
