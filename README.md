@@ -1,2 +1,2 @@
 # redux-ru-tutorial
-Код для [Создание actions](https://maxfarseer.gitbooks.io/redux-course-ru/content/sozdanie_actions.html)
+Код для [Наводим порядок](https://maxfarseer.gitbooks.io/redux-course-ru/content/navodim_poryadok.html)
