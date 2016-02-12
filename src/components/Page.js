@@ -2,10 +2,10 @@ import React, { PropTypes, Component } from 'react'
 
 export default class Page extends Component {
   onYearBtnClick(e) {
-    this.props.setYear(+e.target.innerText)
+    this.props.getPhotos(+e.target.innerText)
   }
   render() {
-    const { year, photos } = this.props
+    const { year, photos, fetching } = this.props
     return <div className='ib page'>
       <p>
         <button className='btn' onClick={::this.onYearBtnClick}>2016</button>{' '}
@@ -13,7 +13,12 @@ export default class Page extends Component {
         <button className='btn' onClick={::this.onYearBtnClick}>2014</button>
       </p>
       <h3>{year} год</h3>
-      <p>У тебя {photos.length} фото.</p>
+      {
+        fetching ?
+        <p>Загрузка...</p>
+        :
+        <p>У тебя {photos.length} фото.</p>
+      }
     </div>
   }
 }
@@ -21,5 +26,5 @@ export default class Page extends Component {
 Page.propTypes = {
   year: PropTypes.number.isRequired,
   photos: PropTypes.array.isRequired,
-  setYear: PropTypes.func.isRequired
+  getPhotos: PropTypes.func.isRequired
 }
