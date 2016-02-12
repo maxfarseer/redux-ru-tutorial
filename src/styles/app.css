@@ -89,3 +89,9 @@ h3 {
 .btn:hover {
   background-color: #6d8cb0
 }
+
+.photo {
+  display: inline-block;
+  margin: 10px 2px;
+  width: 130px;
+}

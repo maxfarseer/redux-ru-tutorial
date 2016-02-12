@@ -17,7 +17,12 @@ export default class Page extends Component {
         fetching ?
         <p>Загрузка...</p>
         :
-        <p>У тебя {photos.length} фото.</p>
+        photos.map((entry, index) =>
+          <div key={index} className='photo'>
+            <p><img src={entry.src} /></p>
+            <p>{entry.likes.count} ❤</p>
+          </div>
+        )
       }
     </div>
   }
