@@ -22,9 +22,13 @@ export function handleLogin() {
         })
 
       } else {
-        console.error(LOGIN_FAIL);
+        dispatch({
+          type: LOGIN_FAIL,
+          error: true,
+          payload: new Error('Ошибка авторизации')
+        })
       }
-    },4); //bitmask for access friends,photos
+    },4); // запрос прав на доступ к photo
   }
 
 }
