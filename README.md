@@ -1,2 +1,2 @@
 # redux-ru-tutorial
-Код для [Асинхронные actions](https://maxfarseer.gitbooks.io/redux-course-ru/content/asinhronnie_actions.html)
+Код для [Взаимодействуем с VK](https://maxfarseer.gitbooks.io/redux-course-ru/content/vzaimodeistvuem_s_vk.html)
