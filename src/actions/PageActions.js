@@ -30,6 +30,7 @@ function getMorePhotos(offset, count, year, dispatch) {
         photosArr = photosArr.concat(r.response)
         getMorePhotos(offset,count,year,dispatch)
       } else {
+        photosArr = photosArr.concat(r.response)
         let photos = makeYearPhotos(photosArr, year)
         cached = true
         dispatch({
